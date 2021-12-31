@@ -7,7 +7,7 @@ sudo apt-get -y install python3-pip
 sudo apt-get -y install python3-venv
 
 
-# Change this to "~/.zshrc" to "~/.bashrc" if you're not using Kali.
+# Change "~/.zshrc" to "~/.bashrc" if you're not using Kali.
 source ~/.zshrc
 
 sudo python3 -m pip install --user pipx
