@@ -7,7 +7,9 @@ sudo apt-get -y install python3-pip
 sudo apt-get -y install python3-venv
 
 
-# Check if you are using Kali or not
+# Check if you are using Kali or not.
+# 
+# This is currently useless since the dependencies have to be installed manually from the corresponding repositories, so it only works in Kali.
 COMMAND=$(uname -a);
 
 if [[ $COMMAND =~ "kali" ]];
@@ -17,8 +19,6 @@ else
         SCRIPT=~/.bashrc
 fi
 source $SCRIPT
-
-
 
 # Set up pipx
 sudo python3 -m pip install --user pipx
