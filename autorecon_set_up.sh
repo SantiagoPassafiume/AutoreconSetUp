@@ -9,3 +9,9 @@ sudo python3 -m pipx ensurepath
 sudo apt-get -y install seclists curl enum4linux feroxbuster impacket-scripts nbtscan nikto nmap onesixtyone oscanner redis-tools smbclient smbmap snmp sslscan sipvicious tnscmd10g whatweb wkhtmltopdf
 
 pipx install git+https://github.com/Tib3rius/AutoRecon.git
+
+# If you want to run autorecon using sudo, you need to use one of the following examples:
+#
+# sudo env "PATH=$PATH" autorecon [OPTIONS]
+# sudo $(which autorecon) [OPTIONS]
+
